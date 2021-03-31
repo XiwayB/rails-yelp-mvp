@@ -10,6 +10,11 @@
   </head>
 
   <body>
+
+    <div class="navbar" class="d-flex">
+      <%= link_to "Yelp!", root_path %>
+      <%= link_to "Add a restaurant", new_restaurant_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
